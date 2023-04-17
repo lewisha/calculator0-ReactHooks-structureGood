@@ -38,6 +38,7 @@ const App = (props) => {
     <div>
       <div className="calculator__container">
         <h1>Simple React Calculator</h1>
+        <input type="text" value={result} />
         <Result result={result} />
         <Keypad onClick={onClick} />
       </div>
